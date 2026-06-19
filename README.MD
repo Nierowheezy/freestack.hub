@@ -1,5 +1,7 @@
 # 💸 FreeStack Hub
 
+![FreeStack Hub Screenshot](./assets/FreeStack.png)
+
 A beautiful, production-ready, and highly polished curated directory listing free developer tools across 21 core categories. Built with **React**, **Vite**, **Tailwind CSS (v4)**, and **Fuse.js** for real-time fuzzy filtering.
 
 ---
