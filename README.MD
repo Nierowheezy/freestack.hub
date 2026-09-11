@@ -1,8 +1,8 @@
 # 💸 FreeStack Hub
 
-![FreeStack Hub Screenshot](./assets/FreeStack.png)
-
 A beautiful, production-ready, and highly polished curated directory listing free developer tools across 21 core categories. Built with **React**, **Vite**, **Tailwind CSS (v4)**, and **Fuse.js** for real-time fuzzy filtering.
+
+**Live Demo**: https://freestackhub.vercel.app
 
 ---
 
@@ -33,7 +33,7 @@ npm install
 npm run dev
 ```
 
-The server boot up on port `3000` (http://localhost:3000).
+The server boots up on port `3000` (http://localhost:3000).
 
 ### 3. Production Compilation Action
 
@@ -55,6 +55,15 @@ Checks TypeScript schemas for correctness without emitting files.
 
 ## ☁️ Deployment Instructions
 
+### Deploy to Vercel
+
+To deploy **FreeStack Hub** on Vercel, connect your repository and configure the following parameters:
+
+- **Framework Preset**: Vite
+- **Build Command**: `npm run build`
+- **Output Directory**: `dist`
+- **Node Version**: `18+` or `20+`
+
 ### Deploy to Netlify
 
 To deploy **FreeStack Hub** on Netlify, connect your repository and configure the following parameters:
@@ -74,6 +83,7 @@ To deploy **FreeStack Hub** on Netlify, connect your repository and configure th
 ├── vite.config.ts          # Vite compilation overrides
 ├── index.html              # HTML structure + Inter font resources
 ├── metadata.json           # Application platform identifier
+├── CHANGELOG.md            # Project changelog
 ├── src/
 │   ├── main.tsx            # App bundle mounting entrypoint
 │   ├── App.tsx             # Master layout of categories & stats hooks
@@ -88,6 +98,12 @@ To deploy **FreeStack Hub** on Netlify, connect your repository and configure th
 │       ├── DarkModeToggle.jsx    # Dual theme sun/moon switcher
 │       └── ErrorBoundary.tsx     # Full safety layout protection
 ```
+
+---
+
+## 📜 Changelog
+
+All notable changes to this project will be documented in [CHANGELOG.md](./CHANGELOG.md).
 
 ---
 
