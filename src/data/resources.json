@@ -1,0 +1,612 @@
+[
+  {
+    "category": "APIs & Data",
+    "items": [
+      {
+        "name": "Abstract API",
+        "url": "https://www.abstractapi.com",
+        "description": "API suite for a variety of use cases, including IP geo-location, gender detection, or email validation."
+      },
+      {
+        "name": "Apify",
+        "url": "https://www.apify.com",
+        "description": "Web scraping and automation platform to extract data. Has ready-made scrapers, proxies, and custom scraping solutions."
+      },
+      {
+        "name": "Beeceptor",
+        "url": "https://beeceptor.com",
+        "description": "Create a Mock API server in seconds. Free 50 requests per day for life, perfect for rapid API design and mocking."
+      },
+      {
+        "name": "Clarifai",
+        "url": "https://www.clarifai.com",
+        "description": "Computer vision and image recognition API. Custom model training with free plan of 5,000 requests per month."
+      },
+      {
+        "name": "Data Fetcher",
+        "url": "https://datafetcher.com",
+        "description": "A Postman-like interface to connect Airtable to any application or API without writing code."
+      },
+      {
+        "name": "SerpApi",
+        "url": "https://serpapi.com",
+        "description": "Real-time search engine scraping API. Returns structured JSON results for Google, Bing, Baidu, and others."
+      },
+      {
+        "name": "Sheetson",
+        "url": "https://sheetson.com",
+        "description": "Instantly turn any Google Sheet into a fully-functional, standard RESTful database API."
+      },
+      {
+        "name": "Shipyard",
+        "url": "https://www.shipyardapp.com",
+        "description": "Low-code data orchestration platform. Connect standard tools or write custom scripts in Python, Node, and SQL."
+      }
+    ]
+  },
+  {
+    "category": "Artificial Intelligence",
+    "items": [
+      {
+        "name": "ChatGPT",
+        "url": "https://chatgpt.com",
+        "description": "State-of-the-art conversational AI developed by OpenAI, highly versatile for coding, summaries, and text generation."
+      },
+      {
+        "name": "Claude",
+        "url": "https://claude.ai",
+        "description": "Helpful, honest, and harmless conversational AI developed by Anthropic, with extremely strong reasoning capabilities."
+      },
+      {
+        "name": "Google Gemini",
+        "url": "https://gemini.google.com",
+        "description": "Google's multimodal assistant capable of browsing the web, accepting photo uploads, and handling complex reasoning."
+      },
+      {
+        "name": "Hugging Face",
+        "url": "https://huggingface.co",
+        "description": "The open home of machine learning models, datasets, and applications, hosting thousands of community ML tools."
+      },
+      {
+        "name": "Mistral AI",
+        "url": "https://mistral.ai",
+        "description": "High-performance open-weight and commercial AI models that feature multilingual support and fast inference local options."
+      },
+      {
+        "name": "Perplexity",
+        "url": "https://perplexity.ai",
+        "description": "An AI-powered search engine that answers natural language queries with real-time web citations."
+      },
+      {
+        "name": "Phind",
+        "url": "https://phind.com",
+        "description": "AI-powered search engine and chatbot purpose-built for software developers, returning code and detailed guides."
+      },
+      {
+        "name": "Poe",
+        "url": "https://poe.com",
+        "description": "An AI portal by Quora that provides high-speed access to a collection of different chat models in one interface."
+      }
+    ]
+  },
+  {
+    "category": "BaaS",
+    "items": [
+      {
+        "name": "Appwrite",
+        "url": "https://appwrite.io",
+        "description": "An open-source, self-hostable Backend-as-a-Service providing authentication, databases, storage, and functions."
+      },
+      {
+        "name": "AWS Amplify",
+        "url": "https://aws.amazon.com/amplify",
+        "description": "A complete solution for frontend web/mobile developers to build, ship, and host full-stack applications on AWS."
+      },
+      {
+        "name": "Back4App",
+        "url": "https://www.back4app.com",
+        "description": "An easy-to-use, flexible and highly scalable backend based on the open-source Parse Platform."
+      },
+      {
+        "name": "Convex",
+        "url": "https://convex.dev",
+        "description": "Reactive serverless backend database streaming updates over WebSockets. Free up to 1 million records."
+      },
+      {
+        "name": "Firebase",
+        "url": "https://firebase.com",
+        "description": "Google's app suite. Free Spark plan includes Firestore, Cloud Functions, hosting, auth, storage, and analytics."
+      },
+      {
+        "name": "Supabase",
+        "url": "https://supabase.com",
+        "description": "The open-source Firebase alternative. Built on Postgres with native row-level security, realtime databases, auth, and edge storage."
+      }
+    ]
+  },
+  {
+    "category": "Calendar",
+    "items": [
+      {
+        "name": "ChronoLink",
+        "url": "https://www.chronolink.app",
+        "description": "Synchronize calendars across platforms with customizable transition and transformation rules."
+      },
+      {
+        "name": "Proton Calendar",
+        "url": "https://proton.me/calendar",
+        "description": "A secure, modern, and private calendar prioritizing end-to-end data encryption."
+      },
+      {
+        "name": "Tutanota Calendar",
+        "url": "https://tutanota.com",
+        "description": "Highly secure, privacy-focused calendar built natively on top of zero-knowledge email architecture."
+      }
+    ]
+  },
+  {
+    "category": "Code Editors",
+    "items": [
+      {
+        "name": "Cursor",
+        "url": "https://cursor.com",
+        "description": "Highly advanced fork of VS Code tailored for AI programming, including inline edits, chat, and smart auto-completions."
+      },
+      {
+        "name": "Project IDX",
+        "url": "https://idx.dev",
+        "description": "A entirely web-based browser development workspace designed by Google with built-in multi-platform previews and Gemini."
+      },
+      {
+        "name": "Visual Studio Code",
+        "url": "https://code.visualstudio.com",
+        "description": "The incredibly popular, extensible open-source desktop code editor developed by Microsoft."
+      },
+      {
+        "name": "VSCodium",
+        "url": "https://vscodium.com",
+        "description": "Community-led, telemetry-free distribution of VS Code built directly from the MIT-licensed open source repositories."
+      },
+      {
+        "name": "Zed",
+        "url": "https://zed.dev",
+        "description": "High-performance, lightweight collaborative code editor written in Rust, designed for exceptional speed."
+      },
+      {
+        "name": "Neovim",
+        "url": "https://neovim.io",
+        "description": "Vim fork with custom configuration in Lua, massive plugin ecosystem, and extremely lightweight terminal footprint."
+      }
+    ]
+  },
+  {
+    "category": "Code Generation",
+    "items": [
+      {
+        "name": "Blackbox",
+        "url": "https://www.blackbox.ai",
+        "description": "AI-powered assistant for fast code autocomplete, search repository, translation, and standard chat."
+      },
+      {
+        "name": "Bolt.new",
+        "url": "https://bolt.new",
+        "description": "AI web container system that generates, tests, and deploys full stack React, Vue, or Angular apps in browser."
+      },
+      {
+        "name": "Codeium",
+        "url": "https://www.codeium.com",
+        "description": "Superfast, free AI copilot for auto-suggestions, chat queries, and deep codebase search across all major IDEs."
+      },
+      {
+        "name": "Lovable",
+        "url": "https://lovable.dev",
+        "description": "AI software generator that builds fully custom user interfaces, backend connections, and previews in real-time."
+      },
+      {
+        "name": "Tabnine",
+        "url": "https://www.tabnine.com",
+        "description": "Smart AI autocomplete engine focusing heavily on secure, local, and private code generation."
+      }
+    ]
+  },
+  {
+    "category": "Courses",
+    "items": [
+      {
+        "name": "CS50x",
+        "url": "https://cs50.harvard.edu/x",
+        "description": "Harvard University's legendary introduction to computer science and the art of procedural programming."
+      },
+      {
+        "name": "freeCodeCamp",
+        "url": "https://www.freecodecamp.org",
+        "description": "Non-profit interactive curriculum with certifications covering Frontend, Databases, Backend, and Machine Learning."
+      },
+      {
+        "name": "MIT OpenCourseWare",
+        "url": "https://ocw.mit.edu",
+        "description": "Completely free introductory and advanced computer science and engineering coursework directly from MIT."
+      },
+      {
+        "name": "The Odin Project",
+        "url": "https://www.theodinproject.com",
+        "description": "Highly comprehensive, project-based full-stack web development curriculum based on JavaScript, Node, and Ruby."
+      },
+      {
+        "name": "W3Schools",
+        "url": "https://www.w3schools.com",
+        "description": "Extremely approachable reference tutorials and sandboxes for learning web technologies sequentially."
+      }
+    ]
+  },
+  {
+    "category": "DNS",
+    "items": [
+      {
+        "name": "1.1.1.1",
+        "url": "https://1.1.1.1",
+        "description": "Ultra-fast, privacy-centered authoritative public DNS resolver managed globally by Cloudflare."
+      },
+      {
+        "name": "AdGuard DNS",
+        "url": "https://adguard-dns.io",
+        "description": "Public DNS resolver that filters unwanted ads, malicious trackers, and security threats at DNS query level."
+      },
+      {
+        "name": "Cloudflare DNS",
+        "url": "https://www.cloudflare.com/dns",
+        "description": "Enterprise-grade authoritative DNS service offering integrated DDoS defenses and fast response times."
+      },
+      {
+        "name": "NextDNS",
+        "url": "https://nextdns.io",
+        "description": "Modern customizable DNS filtering dashboard allowing detailed rule matching, tracking, and ad-blocking blocks."
+      },
+      {
+        "name": "Quad9",
+        "url": "https://quad9.net",
+        "description": "Non-profit, privacy-focused DNS resolver designed to block malicious software domains with zero IP data logging."
+      }
+    ]
+  },
+  {
+    "category": "Databases",
+    "items": [
+      {
+        "name": "MongoDB Atlas",
+        "url": "https://cloud.mongodb.com",
+        "description": "Fully managed NoSQL document database service. Free tier offers 512MB of cloud storage."
+      },
+      {
+        "name": "Neon",
+        "url": "https://neon.com",
+        "description": "Serverless server database Postgres client. Decouples storage and compute, enabling instant branching and scaling."
+      },
+      {
+        "name": "PocketBase",
+        "url": "https://pocketbase.io",
+        "description": "A single-file, highly portable SQLite backend as a service with database auth, real-time sync, and admin UI."
+      },
+      {
+        "name": "Turso",
+        "url": "https://turso.tech",
+        "description": "Serverless edge-deployed database built on libSQL (SQLite fork) offering replica-location deployment globally."
+      },
+      {
+        "name": "PostgreSQL",
+        "url": "https://www.postgresql.org",
+        "description": "The world's most advanced, open-source object-relational database system, renowned for robust stability."
+      },
+      {
+        "name": "Redis Cloud",
+        "url": "https://redis.io",
+        "description": "Blazing fast in-memory key-value database widely used for high-efficiency caching, queues, and search."
+      }
+    ]
+  },
+  {
+    "category": "Design & UI",
+    "items": [
+      {
+        "name": "Canva",
+        "url": "https://canva.com",
+        "description": "Extremely simple online graphic design platform offering templates, assets, and collaboration tools."
+      },
+      {
+        "name": "Color Hunt",
+        "url": "https://colorhunt.co",
+        "description": "Curated catalogs of beautiful, ready-to-use modern color palette combinations for designers."
+      },
+      {
+        "name": "Excalidraw",
+        "url": "https://excalidraw.com",
+        "description": "Virtual sketch-board giving a custom hand-drawn diagram look, with collaborative multiplayer workspaces."
+      },
+      {
+        "name": "Figma",
+        "url": "https://www.figma.com",
+        "description": "Superb collaborative vector UI/UX design tool; free plan includes unlimited files, drafts, and 3 personal files."
+      },
+      {
+        "name": "Haikei",
+        "url": "https://haikei.app",
+        "description": "Interactive vector generator creating custom blobs, waves, grids, and geometric SVG background graphics."
+      },
+      {
+        "name": "unDraw",
+        "url": "https://undraw.co",
+        "description": "Constantly updated repository of gorgeous minimalist vector illustrations customizable with matching brand colors."
+      }
+    ]
+  },
+  {
+    "category": "Domains",
+    "items": [
+      {
+        "name": "DigitalPlat",
+        "url": "https://domain.digitalplat.org",
+        "description": "Free domain subdomain provider for verified nonprofit programs, managing us.kg, qzz.io, and other custom domains."
+      },
+      {
+        "name": "is-a.dev",
+        "url": "https://is-a.dev",
+        "description": "Completely free, high-quality, developer-centric subdomains under the is-a.dev suffix for hosting portfolios."
+      },
+      {
+        "name": "JS.ORG",
+        "url": "https://js.org",
+        "description": "Highly trusted free js.org subdomains for hosting frontend assets on GitHub Pages for JavaScript developers."
+      },
+      {
+        "name": "us.kg",
+        "url": "https://nic.us.kg",
+        "description": "Official registry for free subdomains under us.kg managed for creators, students, and open projects."
+      }
+    ]
+  },
+  {
+    "category": "Email",
+    "items": [
+      {
+        "name": "AnonAddy",
+        "url": "https://anonaddy.com",
+        "description": "Open-source anonymous email forwarding service allowing users to create unlimited random alias targets for safety."
+      },
+      {
+        "name": "DuckDuckGo Email",
+        "url": "https://duckduckgo.com/email",
+        "description": "Free privacy-focused forwarding protection removing email trackers and building unique temporary targets."
+      },
+      {
+        "name": "EmailJS",
+        "url": "https://www.emailjs.com",
+        "description": "Send emails directly from client-side JavaScript code without setting up custom server infrastructure."
+      },
+      {
+        "name": "forwardemail",
+        "url": "https://forwardemail.net",
+        "description": "High-grade free email forwarding for custom domains with zero data storage logs and full open-source codebase."
+      },
+      {
+        "name": "Mailtrap",
+        "url": "https://mailtrap.io",
+        "description": "Sandbox SMTP server designed specifically for safe staging and development environment email testing."
+      },
+      {
+        "name": "Zoho Mail",
+        "url": "https://www.zoho.com/mail",
+        "description": "Premium cloud business mail for custom domains. Secure free business tier includes up to 5 user boxes."
+      }
+    ]
+  },
+  {
+    "category": "Font",
+    "items": [
+      {
+        "name": "Bunny Fonts",
+        "url": "https://fonts.bunny.net",
+        "description": "Drop-in, GDPR-compliant alternative to Google Fonts served directly from extreme high-speed global CDNs."
+      },
+      {
+        "name": "Font Awesome",
+        "url": "https://fontawesome.com",
+        "description": "The world's premium vector web icon font library, delivering thousands of vector markers."
+      },
+      {
+        "name": "Google Fonts",
+        "url": "https://fonts.google.com",
+        "description": "Definitive directory of thousands of open-source print and digital typefaces ready with automated styling links."
+      },
+      {
+        "name": "Nerd Fonts",
+        "url": "https://www.nerdfonts.com",
+        "description": "Aggregations of popular coding fonts patched with immense sets of developer symbols, glyphs, and brand icons."
+      }
+    ]
+  },
+  {
+    "category": "For Students",
+    "items": [
+      {
+        "name": "GitHub Education Pack",
+        "url": "https://education.github.com/pack",
+        "description": "The absolute golden portfolio of free student services, hosting, domains, IDE access, and cloud servers."
+      },
+      {
+        "name": "JetBrains Student",
+        "url": "https://www.jetbrains.com/community/education",
+        "description": "Free individual yearly licenses for JetBrains' suite of world-class developer IDEs like IntelliJ, WebStorm, and PyCharm."
+      },
+      {
+        "name": "Roadmap.sh",
+        "url": "https://roadmap.sh",
+        "description": "Visual path-guides with nested study elements for understanding modern backend, devops, and game development."
+      },
+      {
+        "name": "TotallyNotQuizlet",
+        "url": "https://totallynotquizlet.github.io/study",
+        "description": "Privacy-centric lightweight offline flashcard utility that stores sets on-device or via Base64 payload links."
+      }
+    ]
+  },
+  {
+    "category": "Forms",
+    "items": [
+      {
+        "name": "Formspree",
+        "url": "https://formspree.io",
+        "description": "A lightweight server dashboard that forwards HTML post-form requests directly to designated emails."
+      },
+      {
+        "name": "Formbricks",
+        "url": "https://formbricks.com",
+        "description": "An open-source survey alternative allowing in-app triggers, micro-surveys, and target audience feedback."
+      },
+      {
+        "name": "Tally.so",
+        "url": "https://tally.so",
+        "description": "Stunning Notion-like interface blocks builder where almost all form elements are completely free."
+      },
+      {
+        "name": "Web3Forms",
+        "url": "https://web3forms.com",
+        "description": "Integrate simple forms into templates with custom webhooks, payments, and automated reply paths without configuration."
+      }
+    ]
+  },
+  {
+    "category": "Linux Distributions",
+    "items": [
+      {
+        "name": "Arch Linux",
+        "url": "https://archlinux.org",
+        "description": "Lightweight, highly modular, rolling-release distribution based on keeping operations strictly simple."
+      },
+      {
+        "name": "Debian",
+        "url": "https://www.debian.org",
+        "description": "The grand benchmark of highly stable, robust, and universally compatible operating systems."
+      },
+      {
+        "name": "elementary OS",
+        "url": "https://elementary.io",
+        "description": "Strikingly polished design distribution based on Ubuntu, focusing on clean, intuitive desktop interactions."
+      },
+      {
+        "name": "Linux Mint",
+        "url": "https://linuxmint.com",
+        "description": "A very popular desktop suite designed to provide a highly comfortable transition for Windows users."
+      },
+      {
+        "name": "Ubuntu",
+        "url": "https://ubuntu.com",
+        "description": "The world's most widely utilized Linux workstation, offering incredible cloud, hardware, and container integration."
+      }
+    ]
+  },
+  {
+    "category": "Messaging & Streaming",
+    "items": [
+      {
+        "name": "Ably",
+        "url": "https://www.ably.com",
+        "description": "Real-time communication, presence, Pub/Sub, and synchronization engines. Free includes 3M monthly messages."
+      },
+      {
+        "name": "Knock",
+        "url": "https://knock.app",
+        "description": "Central notification orchestration service supporting emails, in-app badges, SMS, and Slack in single requests."
+      },
+      {
+        "name": "Pusher",
+        "url": "https://pusher.com",
+        "description": "Super simple WebSocket API hosting up to 100 concurrent connections and 200,000 daily messages free."
+      },
+      {
+        "name": "Upstash Kafka",
+        "url": "https://upstash.com/kafka",
+        "description": "Serverless hosted Apache Kafka cluster billed entirely by message counts. Includes 10k free daily triggers."
+      }
+    ]
+  },
+  {
+    "category": "Monitoring",
+    "items": [
+      {
+        "name": "Simple Observability",
+        "url": "https://simpleobservability.com",
+        "description": "Unified cloud observability panel tracking raw container and client application system error logs."
+      },
+      {
+        "name": "UptimeRobot",
+        "url": "https://uptimerobot.com",
+        "description": "Monitors services at regular intervals, notifying by telegram, discord, or email. Offers 50 monitors for free."
+      }
+    ]
+  },
+  {
+    "category": "PaaS",
+    "items": [
+      {
+        "name": "Deno Deploy",
+        "url": "https://deno.com/deploy",
+        "description": "Multi-region serverless platform running highly optimized JavaScript, V8 runtime, and edge-native Typescript."
+      },
+      {
+        "name": "Koyeb",
+        "url": "https://www.koyeb.com",
+        "description": "Deploy Docker containers easily in seconds. Global edge caching network with forever-free nano services."
+      },
+      {
+        "name": "Railway",
+        "url": "https://railway.app",
+        "description": "Code deployment workflow connected directly to Git repos with automated database setups."
+      },
+      {
+        "name": "Glitch",
+        "url": "https://glitch.com",
+        "description": "Web-based environment making code editing, publishing, and collaborative learning highly visual and interactive."
+      }
+    ]
+  },
+  {
+    "category": "Payments & Billing",
+    "items": [
+      {
+        "name": "Adapty",
+        "url": "https://adapty.io",
+        "description": "Subscription integration SDK supporting App Store, Play Store, and billing workflows. Free up to $10k recurring revenue."
+      },
+      {
+        "name": "CoinGecko API",
+        "url": "https://www.coingecko.com/en/api",
+        "description": "Comprehensive cryptocurrency pricing catalog tracking thousands of market tokens with high precision."
+      },
+      {
+        "name": "ExchangeRate-API",
+        "url": "https://www.exchangerate-api.com",
+        "description": "Fast and incredibly simple JSON exchange rate data endpoint, completely free without strict quota limits."
+      },
+      {
+        "name": "RevenueCat",
+        "url": "https://www.revenuecat.com",
+        "description": "Robust transactional subscription tracking backend for mobile platforms, fully free up to $10k/month revenue."
+      }
+    ]
+  },
+  {
+    "category": "SSL",
+    "items": [
+      {
+        "name": "Let's Encrypt",
+        "url": "https://letsencrypt.org",
+        "description": "Fully automated, public-benefit, and globally recognized certificates authority providing free SSL/TLS keys."
+      },
+      {
+        "name": "ZeroSSL",
+        "url": "https://zerossl.com",
+        "description": "Create instant 90-day certificates with highly automated verification API channels."
+      }
+    ]
+  }
+]
