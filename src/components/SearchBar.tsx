@@ -23,11 +23,37 @@ interface FlatResourceItem extends Resource {
   categoryName: string;
 }
 
+// Search analytics interface
+interface SearchAnalytics {
+  query: string;
+  count: number;
+  lastSearched: string;
+}
+
 export default function SearchBar({ resources, onSearch }: SearchBarProps) {
   const [query, setQuery] = useState("");
   const [isMac, setIsMac] = useState(false);
   const [isFocused, setIsFocused] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
+
+  // Search analytics state - initialize from localStorage
+  const [searchAnalytics, setSearchAnalytics] = useState<SearchAnalytics[]>(() => {
+    try {
+      const stored = localStorage.getItem("search_analytics");
+      return stored ? JSON.parse(stored) : [];
+    } catch {
+      return [];
+    }
+  });
+
+  // Save analytics to localStorage whenever it changes
+  useEffect(() => {
+    try {
+      localStorage.setItem("search_analytics", JSON.stringify(searchAnalytics));
+    } catch {
+      // Ignore localStorage errors
+    }
+  }, [searchAnalytics]);
 
   // Create a flattened list of items for Fuse search
   const flatItems = useMemo(() => {
@@ -142,6 +168,37 @@ export default function SearchBar({ resources, onSearch }: SearchBarProps) {
   const handleClear = () => {
     setQuery("");
   };
+
+  // Track search analytics - update on every non-empty query
+  useEffect(() => {
+    if (!query.trim()) {
+      // Don't track empty searches
+      return;
+    }
+
+    // Update analytics - increment count or add new query
+    setSearchAnalytics((prev) => {
+      const existingIndex = prev.findIndex((a) => a.query.toLowerCase() === query.toLowerCase());
+      if (existingIndex >= 0) {
+        const updated = [...prev];
+        updated[existingIndex] = {
+          query: updated[existingIndex].query,
+          count: updated[existingIndex].count + 1,
+          lastSearched: new Date().toISOString(),
+        };
+        return updated;
+      } else {
+        return [
+          ...prev,
+          {
+            query,
+            count: 1,
+            lastSearched: new Date().toISOString(),
+          },
+        ];
+      }
+    });
+  }, [query]);
 
   return (
     <div id="search-bar-container" className="w-full max-w-md mx-auto">

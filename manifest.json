@@ -1,0 +1,50 @@
+{
+  "name": "FreeStack Hub",
+  "short_name": "FreeStack Hub",
+  "description": "Curated directory of free developer tools and resources",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a1a1a",
+  "display_buttons": "show",
+  "orientation": "portrait-primary",
+  "categories": ["utilities", "developer-tools", "education"],
+  "lang": "en-US",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/favicon-16x16.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "/favicon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/favicon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Search Tools",
+      "short_name": "Search",
+      "url": "/",
+      "description": "Search free developer tools"
+    },
+    {
+      "name": "Categories",
+      "short_name": "Categories",
+      "url": "/",
+      "description": Browse developer tools by category"
+    }
+  ]
+}

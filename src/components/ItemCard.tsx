@@ -1,5 +1,5 @@
 import React from "react";
-import { ExternalLink } from "lucide-react";
+import { ExternalLink, Heart } from "lucide-react";
 
 interface Resource {
   name: string;
@@ -16,6 +16,25 @@ interface ItemCardProps {
 export default function ItemCard({ item, categoryName }: ItemCardProps): React.JSX.Element {
   const itemSlug = item.name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
   
+  // Check localStorage for favorite status on mount
+  const [isFavorite, setIsFavorite] = React.useState(() => {
+    try {
+      const stored = localStorage.getItem(`favorite-${itemSlug}`);
+      return stored === "true";
+    } catch {
+      return false;
+    }
+  });
+
+  const toggleFavorite = () => {
+    setIsFavorite(!isFavorite);
+    try {
+      localStorage.setItem(`favorite-${itemSlug}`, isFavorite ? "false" : "true");
+    } catch {
+      // Ignore localStorage errors
+    }
+  };
+
   return (
     <div
       id={`resource-card-${itemSlug}`}
@@ -36,6 +55,18 @@ export default function ItemCard({ item, categoryName }: ItemCardProps): React.J
           >
             <ExternalLink className="w-4 h-4" />
           </a>
+          <button
+            id={`favorite-btn-${itemSlug}`}
+            onClick={toggleFavorite}
+            className="absolute top-2 right-2 rounded-lg bg-zinc-200 dark:bg-zinc-800 text-zinc-800 hover:bg-zinc-300 dark:hover:bg-zinc-700 p-1 transition-colors"
+            aria-label={isFavorite ? "Remove from favorites" : "Add to favorites"}
+          >
+            {isFavorite ? (
+              <Heart className="w-4 h-4 text-red-500" />
+            ) : (
+              <Heart className="w-4 h-4 text-zinc-800" />
+            )}
+          </button>
         </div>
         
         <p id={`card-desc-${itemSlug}`} className="text-zinc-600 dark:text-zinc-300 text-sm font-sans line-clamp-3 mb-5 leading-relaxed">
