@@ -48,6 +48,11 @@
     "category": "Artificial Intelligence",
     "items": [
       {
+        "name": "Agent QA",
+        "url": "https://vostride.com/docs/agent-qa",
+        "description": "AI-driven web, Android and iOS regression testing with YAML, a CLI and dashboard. Software is free; model, browser or device costs may apply."
+      },
+      {
         "name": "ChatGPT",
         "url": "https://chatgpt.com",
         "description": "State-of-the-art conversational AI developed by OpenAI, highly versatile for coding, summaries, and text generation."
